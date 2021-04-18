@@ -7,9 +7,13 @@ body, #navbar {
 #navbar{
     min-height: 4rem;
     background-color: #563d7c;
+    box-shadow: 0 .25rem .25rem rgba(0,0,0,.25),inset 0 -1px 5px rgba(0,0,0,.25);
 }
 #navbar .nav-link{
     color: #cbbde2;
+}
+#navbar .nav-link:hover{
+    color: white;
 }
 #hero{
     background-color: #343a40;
@@ -87,7 +91,7 @@ body, #navbar {
     line-height: 1.2;
     font-size: 1.5rem
 }
-#first .purple-text{
+#first .purple-text, #third .purple-text{
     color: #7952b3;
 }
 #first .carbon{
@@ -119,4 +123,49 @@ body, #navbar {
 #second h3{
     font-size: 1.25rem;
     color: #7952b3;
+}
+#third{
+    margin: 0 auto;
+    overflow: auto;
+    background-size: 100% 8rem;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27826 3336' preserveAspectRatio='none'%3E%3Cpath fill='%23fff' d='M13913 3336L0 0h27826z'/%3E%3C/svg%3E");
+    background-color: #eee;
+    background-repeat: no-repeat;
+}
+#third .container, #forth .container{
+    margin-top: 200px;
+}
+#forth{
+    margin: 0 auto;
+    overflow: auto;
+    background-size: 100% 8rem;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27826 3336' preserveAspectRatio='none'%3E%3Cpath fill='%23eee' d='M13913 3336L0 0h27826z'/%3E%3C/svg%3E");
+    background-color: #fff;
+    background-repeat: no-repeat;
+}
+#forth h2{
+    color: #7952b3;
+    font-size: 1.5rem;
+}
+#fifth{
+    margin: 0 auto;
+    overflow: auto;
+    background-size: 100% 8rem;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27826 3336' preserveAspectRatio='none'%3E%3Cpath fill='%23fff' d='M13913 3336L0 0h27826z'/%3E%3C/svg%3E");
+    background-color: #eee;
+    background-repeat: no-repeat;
+}
+footer{
+    margin: 200px 0 50px 0;
+    background-color: #eee;
+}
+footer a{
+    font-weight: 600;
+    color: #495057;
+    font-size: .875rem;
+    margin-left: 2rem !important;
+}
+footer h5{
+    color: #7952b3;
+    font-size: 1.25rem;
 }
